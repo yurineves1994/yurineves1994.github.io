@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>PORTFOLIO - 01</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="cheackbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"> </div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="#">Projetos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h1>Yuri Neves</h1>
+        <h2>Front-end Developer</h2>
+        <div class="social-media">
+            <a target="_blank" href="https://www.linkedin.com/in/yuri-travassos-5964b8143/">LinkedIn</a>
+            <a target="_blank" href="https://github.com/yurineves1994">Github</a>
+        </div>
+    </header>
+    <main>
+        <section class="main-skills">
+            <h2>Skill</h2>
+            <div class="skills">
+                <ul>
+                    <li id="html">HTML5</li>
+                    <li id="css">CSS3</li>
+                    <li id="sass">SASS/SCSS</li>
+                    <li id="js">JavaScript</li>
+                    <li id="jquery">JQuery</li>
+                    <li id="wp">Wordpress</li>
+                </ul>
+                <img class="img-skills active" src="https://picsum.photos/300/200?random=1" alt="skills"
+                    data-type='html'>
+                <img class="img-skills" src="https://picsum.photos/300/200?random=2" alt="skills" data-type='css'>
+                <img class="img-skills" src="https://picsum.photos/300/200?random=3" alt="skills" data-type='sass'>
+                <img class="img-skills" src="https://picsum.photos/300/200?random=4" alt="skills" data-type='js'>
+                <img class="img-skills" src="https://picsum.photos/300/200?random=5" alt="skills" data-type='jquery'>
+                <img class="img-skills" src="https://picsum.photos/300/200?random=6" alt="skills" data-type='wp'>
+            </div>
+        </section>
+        <section class="main-projetos">
+            <h2>Projetos</h2>
+            <div class="items">
+                <a href="#">
+                    <div class="item active" style="background-image: url('https://picsum.photos/300');">
+                        <h3>landing pages</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="item next" style="background-image: url('https://picsum.photos/200');">
+                        <h3>mapas interativos</h3>
+                    </div>
+                </a>
+                <a href="javascript.html">
+                    <div class="item" style="background-image: url('https://picsum.photos/200');">
+                        <h3>ferramentas com javacript</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="item prev" style="background-image: url('https://picsum.photos/200');">
+                        <h3>paginas publicadas - clientes</h3>
+                    </div>
+                </a>
+                <div class="button-container">
+                    <div class="button"><i class="fas fa-angle-left"></i></div>
+                    <div class="button"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p>©2022 Todos os direitos reservados</p>
+    </footer>
+    <script src="scripts/script-home.js"></script>
+</body>
+
+</html>
